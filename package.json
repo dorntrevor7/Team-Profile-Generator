@@ -4,7 +4,8 @@
   "description": "This is a team profile generator using object oriented programming.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/dorntrevor7/Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/dorntrevor7/Team-Profile-Generator#readme"
+  "homepage": "https://github.com/dorntrevor7/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
 }
